@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "title": "Automated ETL Pipeline",
+        "category": "Operational Efficiency",
+        "challenge": "Manual data cleaning was taking 20 hours/week.",
+        "toolstack": [
+            "Python",
+            "Pandas",
+            "Airflow",
+            "SQL"
+        ],
+        "insight": "Reduced processing time by 90% and eliminated human error in reporting.",
+        "repoUrl": "https://github.com/dmdtague/etl-pipeline",
+        "demoUrl": "#"
+    },
+    {
+        "id": 2,
+        "title": "Executive Sales Dashboard",
+        "category": "Executive Dashboards",
+        "challenge": "Leadership lacked real-time visibility into regional sales performance.",
+        "toolstack": [
+            "Tableau",
+            "SQL",
+            "Excel"
+        ],
+        "insight": "Identified underperforming region, leading to a 15% revenue recovery strategy.",
+        "repoUrl": "https://github.com/dmdtague/sales-model",
+        "demoUrl": "#"
+    },
+    {
+        "id": 3,
+        "title": "Customer Churn Predictor",
+        "category": "Predictive Insights",
+        "challenge": "Marketing was targeting the wrong user segments for retention.",
+        "toolstack": [
+            "Python",
+            "Scikit-Learn",
+            "Matplotlib"
+        ],
+        "insight": "Pinpointed key churn indicators; model achieved 85% accuracy on test set.",
+        "repoUrl": "https://github.com/dmdtague/churn-pred",
+        "demoUrl": "#"
+    },
+    {
+        "id": 4,
+        "title": "Inventory Optimization Tool",
+        "category": "Operational Efficiency",
+        "challenge": "Overstocking led to high storage costs.",
+        "toolstack": [
+            "R",
+            "Shiny",
+            "PostgreSQL"
+        ],
+        "insight": "Proposed JIT ordering system saving estimated $50k annually.",
+        "repoUrl": "https://github.com/dmdtague/inventory-opt",
+        "demoUrl": "#"
+    },
+    {
+        "id": 5,
+        "title": "Market Sentiment Analysis",
+        "category": "Predictive Insights",
+        "challenge": "Need to understand social media reaction to product launch.",
+        "toolstack": [
+            "Python",
+            "NLTK",
+            "Twitter API"
+        ],
+        "insight": "Correlated negative sentiment spikes with server downtime incidents.",
+        "repoUrl": "https://github.com/dmdtague/sentiment",
+        "demoUrl": "#"
+    }
+]

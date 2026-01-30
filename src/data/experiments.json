@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Race-2-1 Game Theory",
+        "status": "complete",
+        "toolstack": [
+            "React",
+            "Vite",
+            "Game Logic",
+            "Vercel"
+        ],
+        "hypothesis": "A deterministic optimal strategy exists for the 'Race to 21' additive game, grounded in modular arithmetic (target = 4n + 1).",
+        "methodology": "Implemented a Minimax-style algorithm for the AI opponent. Built a responsive React UI to visualize the game state and 'winning' vs 'losing' positions in real-time.",
+        "delta": "Demonstrates how abstract mathematical concepts can be gamified into an intuitive user experience with zero-latency state management.",
+        "repoUrl": "https://github.com/DMDTague/Race-2-1",
+        "demoUrl": "https://race-2-1.vercel.app"
+    },
+    {
+        "id": 2,
+        "title": "SEPTA COVID Recovery",
+        "status": "complete",
+        "toolstack": [
+            "React",
+            "Python",
+            "Recharts",
+            "Open Data"
+        ],
+        "hypothesis": "The pandemic's impact on transit ridership was not uniform; route-specific analysis reveals localized recovery patterns.",
+        "methodology": "Built a Python ETL pipeline to ingest daily SEPTA ridership data (2014-2025). Visualized trends using Recharts. Implemented mode-based filtering (Bus vs Rail).",
+        "delta": "Transforms complex CSV dumps into an interactive dashboard. Reveals disparate recovery rates across different city sectors.",
+        "repoUrl": "https://github.com/DMDTague/Septa-Dashboard",
+        "demoUrl": "https://septa-covid-analysis.vercel.app"
+    },
+    {
+        "id": 3,
+        "title": "PA Attendance Analytics",
+        "status": "complete",
+        "toolstack": [
+            "Python (Pandas)",
+            "Clustering",
+            "React",
+            "Vite"
+        ],
+        "hypothesis": "Longitudinal clustering of school districts reveals chronic absenteeism trends that are invisible in aggregate annual reports.",
+        "methodology": "Ingested 8 years of raw Excel child-accounting data. Engineered 'Lost Instructional Time' metrics. Used K-Means clustering to group districts by attendance profiles.",
+        "delta": "Complete data-to-web pipeline. Processed 2001-2009 data into accessible insights. Highlights districts at risk of missing 95% targets.",
+        "repoUrl": "https://github.com/DMDTague/PA-Attendance-Portfolio",
+        "demoUrl": "https://pa-child-accounting-attendance-anal.vercel.app"
+    },
+    {
+        "id": 4,
+        "title": "MOND Physics Engine",
+        "status": "complete",
+        "toolstack": [
+            "C",
+            "JavaScript",
+            "WebGL",
+            "GLSL"
+        ],
+        "hypothesis": "Modified Newtonian Dynamics (Milgrom 1983) can be accurately simulated in real-time using the simple interpolation function ν(y) = 0.5 + √(0.25 + 1/y).",
+        "methodology": "Ported C physics engine to JavaScript with custom WebGL shaders. Implemented leapfrog integration for orbital stability. Optimized for 60fps with 500+ particles.",
+        "delta": "Successfully demonstrates the flat rotation curve phenomenon without dark matter. Interactive visualization powering this portfolio.",
+        "repoUrl": "https://github.com/DMDTague/mond-engine",
+        "demoUrl": "/"
+    }
+]
