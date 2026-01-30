@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/', 
+  base: '/', // This ensures index.html looks for /assets/ instead of ./assets/
 })
